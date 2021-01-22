@@ -39,7 +39,8 @@ function budgetCalculator(clock, phone, laptop) {
     }
 }
 
-console.log(budgetCalculator(2, 4, 5));
+budgetCalculator(2, 4, 5);
+
 
 // hotelCost
 
@@ -81,9 +82,11 @@ function hotelCost(days) {
 
 hotelCost(4);
 
+
 // megaFriend
 
 function megaFriend(friends) {
+
     //  check wheather the input value an array or not and empty array or not.
     if (Array.isArray(friends) && friends.length > 0) {
         var bigName = "";
