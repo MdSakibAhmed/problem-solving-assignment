@@ -103,6 +103,8 @@ function megaFriend(friends) {
             }
         }
         return bigName;
+
+        
     } else {
         return "value can not be non-array or empty array";
     }
